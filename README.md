@@ -17,7 +17,7 @@ Configurations and non-configuration resources (e.g. binaries such as, third-par
 
 ## Steps
 - Build the software artifacts (see BUILD_ARTIFACTS.md file on this folder)
-- Build the wso2am docker image according to dockerfiles/centos/apim/README.md
+- Build the wso2am docker image according to docker/README.md
 - Up the docker-compose.yml
 
 
