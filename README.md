@@ -8,7 +8,7 @@ This repository contains following Docker resources:
 
 ## Use cases
 - Non-production environments
-- Small and medium production environments
+- Small production environments
 
 Docker resources for WSO2 API Manager help you build generic Docker images for deploying the corresponding product servers in containerized environments.
 
