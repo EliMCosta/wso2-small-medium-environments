@@ -4,7 +4,7 @@ This repository contains following Docker resources:
 
 - CentOS based Docker resources for WSO2 API Manager
 
-- Docker Compose resources for the Standard HA deployment pattern without Micro Integrator (see https://apim.docs.wso2.com/en/4.2.0/install-and-setup/setup/deployment-overview).
+- Docker Compose resources for the Single Node deployment pattern (see https://apim.docs.wso2.com/en/latest/install-and-setup/setup/single-node/all-in-one-deployment-overview/).
 
 ## Use cases
 - Non-production environments
