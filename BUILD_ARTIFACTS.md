@@ -24,20 +24,20 @@ Note 1: It is recommended to have at least 6vCPU and 12GB RAM to ensure your loc
 Note 2: Eventually, you might need to restart the build since various downloads are made during the process (it should take a few minutes), and sometimes WSO2 servers stop responding.
 
 
-*Build on Rocky Linux 8 server with openJDK11, Git and Maven installed from system repositories - 8vCPU/16GB RAM
+### Build on Rocky Linux 8 server with openJDK11, Git and Maven installed from system repositories - 8vCPU/16GB RAM
 
-'''
+```
 mkdir ~/wso2am-tmp && cd ~/wso2am-tmp
-'''
-'''
+```
+```
 git clone https://github.com/wso2/product-apim.git
-'''
-'''
+```
+```
 cd product-apim && git checkout tags/v4.2.0
-'''
-'''
+```
+```
 sudo mvn clean install -Dmaven.test.skip=true
-'''
+```
 [...]
 
 
