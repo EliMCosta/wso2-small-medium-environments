@@ -1,4 +1,4 @@
- # Docker and Docker Compose Resources for WSO2 API Management
+ # Docker and Docker Compose Resources for WSO2 API Manager
 
 This repository contains following Docker resources:
 
