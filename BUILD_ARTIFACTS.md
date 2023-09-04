@@ -21,6 +21,7 @@ To build the WSO2 APIM binaries executable from the source code, follow the step
 2. Once the build is complete, you should find the executable (wso2am-4.2.0.zip) in the "modules/distribution/product/target" folder within the project directory.
 
 Note 1: It is recommended to have at least 6vCPU and 12GB RAM to ensure your local machine doesn't freeze and isn't used for other tasks while the build is in progress.
+
 Note 2: Eventually, you might need to restart the build since various downloads are made during the process (it should take a few minutes), and sometimes WSO2 servers stop responding.
 
 
