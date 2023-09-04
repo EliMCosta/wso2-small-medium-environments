@@ -1,4 +1,4 @@
-# Dockerfile for WSO2 API Manager #
+# Docker Image for WSO2 API Manager #
 
 This section defines the step-by-step instructions to build an [CentOS](https://hub.docker.com/_/centos/) Linux based Docker image for WSO2 API Manager 4.2.0.
 
