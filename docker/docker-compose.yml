@@ -15,14 +15,14 @@
 version: '2.4'
 services:
   api-manager:
-    image: wso2/wso2am:4.0.0
+    image: localhost/wso2am:4.2.0-centos-jdk11
     healthcheck:
       test: ["CMD", "nc", "-z","localhost", "9443"]
       interval: 10s
       start_period: 180s
       retries: 20
     volumes:
-      - ./repository:/home/wso2carbon/wso2am-4.0.0/repository
+      - ./repository:/home/wso2carbon/wso2am-4.2.0/repository
     ports:
       - "9443:9443"
       - "8280:8280"
